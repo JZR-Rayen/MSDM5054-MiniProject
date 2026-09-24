@@ -21,7 +21,6 @@ TBD
 ## Repository Structure
 
 - `notebooks/`: Jupyter notebooks for data analysis and modeling
-- `src/`: reusable Python scripts
 - `data/`: data instructions
 - `figures/`: figures used in the report
 - `report/`: project report
