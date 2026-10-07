@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local experiment inputs and regenerated outputs
+/data/**
+!/data/README.md
+/notebooks/reruns/
+/figures/redrawn/
+*.joblib
+*.pkl
+*.zip
+.DS_Store

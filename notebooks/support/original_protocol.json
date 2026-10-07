@@ -1,0 +1,84 @@
+{
+  "key": "f0a6d997477eaf5f1da9d996e87ce5bb351e99f2ca51b037ae61261c5e580fb8",
+  "protocol": {
+    "inputs": {
+      "processed_data/application_train_processed_v1.csv": "285a46f9f36d4271470c62820e02267b343ee5149019c80dedbb5fada959d3ad",
+      "processed_data/application_test_processed_v1.csv": "c22d2ccd416ff8f54d5d0eaf3a72221f723a337f1aaed1f6f5dcb85c19075aa8",
+      "processed_data/application_train_processed_v2.csv": "8b8f9889bace2186b3fef23b73d02d5dde64f3d4fe949fcccaa45cdc7efed753",
+      "processed_data/application_test_processed_v2.csv": "f95dae26444cce48a217fe31e40145b47a36d9e78cc83f00dfb5b14de73c5c52",
+      "baseline/splits/membership.csv": "f53531244866db58b376972feecb5879bcb6b81c475e612ad77829e2d4e2963f"
+    },
+    "code": {
+      "unified/run.py": "00938b783175db81be68f648f27e1e5775d4bd4e170f852f44fda39fc7228e32",
+      "unified/rf_processing.py": "6be58ea441d0c72815a369057fe9e1ff09cdb6e80598791473bceb333780c9d1",
+      "baseline/baseline_data.py": "1a62e9bced3d1baae43886dd60eceb54248d29ad6033f58002e809ecd4915fa2",
+      "baseline/baseline_features_v2.py": "edac7c92af846ac58ebd0b8065a5a432be7a4b18b04175ea29a759b30185a3d2",
+      "baseline/baseline_experiments.py": "fe94550920c046dea0adb5d47b0c46fd13af61b6baa42c4ef9b46c71767b9eb4"
+    },
+    "runtime": {
+      "python": "3.13.9 (v3.13.9:8183fa5e3f7, Oct 14 2025, 10:27:13) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "sklearn": "1.7.2",
+      "lightgbm": "4.6.0"
+    },
+    "lr": {
+      "penalty": "elasticnet",
+      "C": 0.01,
+      "l1_ratio": 0.25,
+      "class_weight": "balanced"
+    },
+    "rf": {
+      "n_estimators": 300,
+      "max_depth": 15,
+      "min_samples_leaf": 50,
+      "max_features": 0.1,
+      "class_weight": {
+        "0": 1,
+        "1": 2
+      },
+      "criterion": "gini",
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 4
+    },
+    "lgb": {
+      "objective": "binary",
+      "metric": "auc",
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "num_leaves": 31,
+      "min_data_in_leaf": 20,
+      "min_gain_to_split": 0.01,
+      "seed": 42,
+      "num_threads": 4,
+      "verbosity": -1,
+      "zero_as_missing": false,
+      "use_missing": true,
+      "deterministic": true,
+      "force_col_wise": true,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 1.0,
+      "bagging_freq": 0,
+      "lambda_l1": 0.0,
+      "lambda_l2": 0.0,
+      "max_bin": 255
+    },
+    "early_stopping": {
+      "inner_fraction": 0.1,
+      "seed": 42,
+      "max_rounds": 1000,
+      "patience": 50,
+      "metric": "unweighted AUC",
+      "outer_validation_used": false
+    },
+    "iv": false,
+    "threshold": "max OOF F1; exact tie highest score; p>=t",
+    "selection": "mean fold AUC, exact tie mean AP, exact tie v1",
+    "old_lr_reuse": false,
+    "rf_missing": "all historical non-count fields plus each new39; fixed schema",
+    "holdout": "previously viewed supplementary evaluation; never selection"
+  },
+  "frozen_at": 1791306793.61752
+}

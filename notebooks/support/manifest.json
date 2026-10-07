@@ -1,0 +1,250 @@
+[
+  {
+    "file": "support/abc/cv_folds.csv",
+    "sha256": "9fd60a2d01bc1eced6248d4819531064b3575f3bb57d7aab29e3ebd4825c9744"
+  },
+  {
+    "file": "support/abc/cv_summary.csv",
+    "sha256": "41e9b12c73ce16f3a8ac37878b0602125ec902a16528aa2c1377e3adedb4ac51"
+  },
+  {
+    "file": "support/abc/feature_sets.json",
+    "sha256": "26009d7f3486d155987dc4c2ab677bcef09dffe22d2b5e8ba41476cf3c6f6a7e"
+  },
+  {
+    "file": "support/abc/oof_predictions.csv.gz",
+    "sha256": "b2fb589e5366e84b1052fccbc65cd5f0b86df83bf2ee50017154b6d597b9327e"
+  },
+  {
+    "file": "support/abc/paired_deltas.csv",
+    "sha256": "dfd9501f1ad5f36e3681c291b53adc6c7b15406a988840525d9bc4b16581b4ed"
+  },
+  {
+    "file": "support/data/data_audit.json",
+    "sha256": "5dabf2e65a8673a1fa18799cf4b4d3e012e81a254941f19982014bf8d2616085"
+  },
+  {
+    "file": "support/data/feature_definitions.json",
+    "sha256": "78749b649d10ef2302e6df10bfe1f77c318887464980beda4f57791029a9dc95"
+  },
+  {
+    "file": "support/data/feature_definitions_v2.json",
+    "sha256": "c351cc1056de8e1563741807383e04582786fa67dccc92b754a248b1cc55d50a"
+  },
+  {
+    "file": "support/data/missing_statistics.csv",
+    "sha256": "35a88ed7b46a99e61202d4ea746ead7f4b33663b11e64d700adf093d70498043"
+  },
+  {
+    "file": "support/data/raw_fingerprints.json",
+    "sha256": "7b22082d9e339f402c329992e5fd8d54afcb3df7443204d030313f7c1fa58ec4"
+  },
+  {
+    "file": "support/interpretation/LGB_importance.csv",
+    "sha256": "24b6b370e01945939d008542ad97527b65a107386182ff84419430e588e16f0a"
+  },
+  {
+    "file": "support/interpretation/LR_importance.csv",
+    "sha256": "3f017aa6a83e631d906da96e3fb231d3be954fc9a44cfea18cabc54ce0996461"
+  },
+  {
+    "file": "support/interpretation/RF_importance.csv",
+    "sha256": "d571f0d67cc7050f9bfded2fd9c2e1c6ed18db64bd570761cee884d7964b769c"
+  },
+  {
+    "file": "support/kaggle/kaggle_submission_20261007.json",
+    "sha256": "9ac5c648aff6b8af3986cb8669aba2925ed284d847ac6b6f15e28a26f4200cd4"
+  },
+  {
+    "file": "support/kaggle/kaggle_submission_20261007.png",
+    "sha256": "415bb21238f407375039c530a087b08818c2a9c202a033f1cee33b4b2cfca3c2"
+  },
+  {
+    "file": "support/membership.csv",
+    "sha256": "f53531244866db58b376972feecb5879bcb6b81c475e612ad77829e2d4e2963f"
+  },
+  {
+    "file": "support/optimization/C11_base_oof.csv.gz",
+    "sha256": "86700f4cdd7934dac3fce5d80f88540711613a2d761ef13bc4fac863f0ba70c6"
+  },
+  {
+    "file": "support/optimization/all_candidates_oof.csv.gz",
+    "sha256": "3052a559f12a16555afc4391f36a18198d3b314f40c1d79758058f45781c4379"
+  },
+  {
+    "file": "support/optimization/blend_folds.csv",
+    "sha256": "ce12bb2495d58fc641a5c64f507a2d3f5b722282cdcbac7787bb888638ef0556"
+  },
+  {
+    "file": "support/optimization/blend_summary.json",
+    "sha256": "d5bfb8b96f675336d5c852fce02bd575d6aa4f7084b308e552e2c478d40da479"
+  },
+  {
+    "file": "support/optimization/cv_folds.csv",
+    "sha256": "7b974c40598fae5dcd7fe413a765d4d26b128d1c1ed294985b8e27a05da943bc"
+  },
+  {
+    "file": "support/optimization/cv_summary.json",
+    "sha256": "f6dc0247499ccc125b660729319c1b0a55f9538e072c002e67ceadb7d792485a"
+  },
+  {
+    "file": "support/optimization/feature_paired_deltas.csv",
+    "sha256": "6e1bb4552ea0cf43f46a764e7df0a5b670010417d528ae1c19955e648cf9884a"
+  },
+  {
+    "file": "support/optimization/final_comparison.csv",
+    "sha256": "7814e591e7a07c480f6081c63083f48108452d8c5638b0f87ba2c7c91e3bb42a"
+  },
+  {
+    "file": "support/optimization/materialized_configs.json",
+    "sha256": "644572cc4fdf93ea1fac85ebb79d32398f2d6370632d75868b17ee97f6044bd4"
+  },
+  {
+    "file": "support/optimization/model_lock.json",
+    "sha256": "c00cd27e0eb5b9defec1c1586372e889f6b1fbd1748cea5b5f1f0f6a2a94bb4b"
+  },
+  {
+    "file": "support/optimization/rank70_20_10_oof.csv.gz",
+    "sha256": "a7db5c87e7392920b53966aa2af1cab5e65babb28ea1e64ab342ac78281031bd"
+  },
+  {
+    "file": "support/optimization/rank80_20_oof.csv.gz",
+    "sha256": "13e984a5b52665dd4bbf1b8c3f3d43cdd3b607b66ea354396fd7df31f3a521b0"
+  },
+  {
+    "file": "support/optimization/raw80_20_oof.csv.gz",
+    "sha256": "36b249855a65a57c8600965bc7717b6e29cca98d82e5f825990348baca6400d4"
+  },
+  {
+    "file": "support/original_protocol.json",
+    "sha256": "ab7d777c083988f2d22cd12aaa041e359bf8c3a65a25d100448cb662a2f2ebd6"
+  },
+  {
+    "file": "support/report_data/figure_sources.json",
+    "sha256": "81a29a285935bea42a32e6ff6def96145b04f3866ebe8e0cce198eef1b82080e"
+  },
+  {
+    "file": "support/report_data/holdout_plotted.csv",
+    "sha256": "ac118cf3c69c08854d594dc473d4d7105bf088e6d4e580cbe9f705a938660be4"
+  },
+  {
+    "file": "support/report_data/optimized_holdout.csv",
+    "sha256": "c06bde64b41f00d40281c70326c82a852c416a36164bdc16c3257a9c8a0b33e9"
+  },
+  {
+    "file": "support/report_data/original_holdout.csv",
+    "sha256": "5331a8d59376dbc01dd9d5ec26d3cb0e291a346675f43a7361a8986a2e4efab5"
+  },
+  {
+    "file": "support/report_data/workflow_definition.json",
+    "sha256": "a4e3cb90214f3e5c85c722d7368fe924694c649a6318c214a6035298d50a4758"
+  },
+  {
+    "file": "source_snapshot/baseline/baseline_data.py",
+    "sha256": "1a62e9bced3d1baae43886dd60eceb54248d29ad6033f58002e809ecd4915fa2"
+  },
+  {
+    "file": "source_snapshot/baseline/baseline_experiments.py",
+    "sha256": "fe94550920c046dea0adb5d47b0c46fd13af61b6baa42c4ef9b46c71767b9eb4"
+  },
+  {
+    "file": "source_snapshot/baseline/baseline_features_v2.py",
+    "sha256": "edac7c92af846ac58ebd0b8065a5a432be7a4b18b04175ea29a759b30185a3d2"
+  },
+  {
+    "file": "source_snapshot/baseline/cache_runtime.py",
+    "sha256": "ac56f8c15ed7ecbebf5eb84280350237d1fab53d8bf1071ccafeadc2156c761e"
+  },
+  {
+    "file": "source_snapshot/unified/abc_comparison/experiment.py",
+    "sha256": "470c348c4616b583ae1c8251e8d43d74bb9dd15a34e441bfae71d5f05cf03fb2"
+  },
+  {
+    "file": "source_snapshot/unified/optimization.py",
+    "sha256": "f8e256bfd060cc931843116510f950ea72a94c2200c33ff63bf8c4bc252ba9e5"
+  },
+  {
+    "file": "source_snapshot/unified/optimization_features.py",
+    "sha256": "a5b57e021305c7d1484329e5cb072d1a9a82d91984cd3c09c2f658edf013484e"
+  },
+  {
+    "file": "source_snapshot/unified/rf_processing.py",
+    "sha256": "6be58ea441d0c72815a369057fe9e1ff09cdb6e80598791473bceb333780c9d1"
+  },
+  {
+    "file": "source_snapshot/unified/run.py",
+    "sha256": "00938b783175db81be68f648f27e1e5775d4bd4e170f852f44fda39fc7228e32"
+  },
+  {
+    "file": "../figures/code/audit_panel_alignment.py",
+    "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+  },
+  {
+    "file": "../figures/code/main_figures.py",
+    "sha256": "2e0e13f65a2ff165b7709c460ea2a777ed16d8c9581a862bc36d13d228f0d1a5"
+  },
+  {
+    "file": "../figures/code/plots.py",
+    "sha256": "f23d54e8dd45c9cc08edfb0361455e48680a61bb9b649001df3d83b4e038b85f"
+  },
+  {
+    "file": "../figures/code/style.py",
+    "sha256": "4374ed2f644c5287a5206c12c83319c20a4f688c2d781a8c582bac5365f99e9f"
+  },
+  {
+    "file": "../figures/abc_auc.png",
+    "sha256": "0dceadc03716fb69ca6a755444edf5f3b63b7adc366def83fcc83ca4a6c78456"
+  },
+  {
+    "file": "../figures/eda_missing_ratio_top20.png",
+    "sha256": "825e8011e15a33af182453ab7daa0779659f823ee12da768506d74bcffdb90f8"
+  },
+  {
+    "file": "../figures/feature_trials.png",
+    "sha256": "c1761dfc04c906a679eab74fe60a5129f163526f655de868d0927a78b5d91540"
+  },
+  {
+    "file": "../figures/fusion_deltas.png",
+    "sha256": "b85104b493a76ee4e1cade2f1d8f521bf72118f6108c367ac6a97c6bbc22f6e5"
+  },
+  {
+    "file": "../figures/history_gains.pdf",
+    "sha256": "e90df416f83aaeeca2ba72f27cedcb9b74c8289613f2c686649e6076a0dc8057"
+  },
+  {
+    "file": "../figures/history_gains.png",
+    "sha256": "c2fab3b9f7413de1ff4bb8434a241e79aa8f40f230968550f6ab4f85717a84c5"
+  },
+  {
+    "file": "../figures/holdout.png",
+    "sha256": "2bd74f3fefc5fefcfa6105d091725f4b78408eb8bee13a2375aa3b45e80b5dba"
+  },
+  {
+    "file": "../figures/model_diagnostics.pdf",
+    "sha256": "d2f2d39dcc6f64d9fca25353e84ffde2f119cdd4854f462d65904ef935ca45d5"
+  },
+  {
+    "file": "../figures/model_diagnostics.png",
+    "sha256": "6a81a79306b293ab40e611ffff3be4b7263a00bb398c6162afb94bd632cb0548"
+  },
+  {
+    "file": "../figures/paired_deltas.png",
+    "sha256": "112768e6fb6832597a5e23f0a0db571cbf0827ae94fff65a171681cb4380c420"
+  },
+  {
+    "file": "../figures/refinement_effects.pdf",
+    "sha256": "21fe7a4952ac107f74eb6bc85ab2a8d954f198d1ab4a58ab38dc493a7f1e9f91"
+  },
+  {
+    "file": "../figures/refinement_effects.png",
+    "sha256": "74917bdd35b756189f6bcbd382c5b6a946cf23dd939806edcba531ef35bef028"
+  },
+  {
+    "file": "../figures/study_design.pdf",
+    "sha256": "910aa10fadb1b8862b87948e1cc5badf2051096c9de72ef383eedebf558a059a"
+  },
+  {
+    "file": "../figures/study_design.png",
+    "sha256": "df3a614d1dba0e7923d28825f59733373b97eb55283d9695a8a9a80d9cc2ed47"
+  }
+]

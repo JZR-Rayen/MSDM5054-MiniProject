@@ -1,0 +1,20 @@
+{
+  "total": 307511,
+  "development": 292135,
+  "holdout": 15376,
+  "groups": {
+    "A": "Application-table information plus four deterministic derivatives",
+    "B": "A plus 27 basic historical aggregates",
+    "C": "B plus 39 behavioural features"
+  },
+  "outer_folds": 3,
+  "lgb_inner_training_fraction": 0.9,
+  "lgb_early_stopping_fraction": 0.1,
+  "lgb_outer_refit": true,
+  "provenance": {
+    "unified/protocol.json": "ab7d777c083988f2d22cd12aaa041e359bf8c3a65a25d100448cb662a2f2ebd6",
+    "unified/run.py": "00938b783175db81be68f648f27e1e5775d4bd4e170f852f44fda39fc7228e32",
+    "unified/abc_comparison/results/feature_sets.json": "26009d7f3486d155987dc4c2ab677bcef09dffe22d2b5e8ba41476cf3c6f6a7e",
+    "baseline/splits/membership.csv": "f53531244866db58b376972feecb5879bcb6b81c475e612ad77829e2d4e2963f"
+  }
+}

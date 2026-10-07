@@ -1,0 +1,29 @@
+{
+  "status": "passed_with_authorized_bureau_filter",
+  "train_shape": [
+    307511,
+    153
+  ],
+  "test_shape": [
+    48744,
+    152
+  ],
+  "class_counts": {
+    "0": 282686,
+    "1": 24825
+  },
+  "numeric_inputs": 135,
+  "categorical_inputs": 16,
+  "missing_columns": 90,
+  "high_missing_columns": 51,
+  "constant_columns": [],
+  "reconstruction_mismatches": 0,
+  "historical_future_records_in_used_offsets": 0,
+  "comparison_tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-08
+  },
+  "bureau_excluded_records": 17,
+  "bureau_changed_cells": 82,
+  "seconds": 11.591233125014696
+}

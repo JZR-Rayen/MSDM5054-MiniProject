@@ -1,0 +1,54 @@
+{
+  "abc_summary.csv": {
+    "original": "unified/abc_comparison/results/cv_summary.csv",
+    "sha256": "41e9b12c73ce16f3a8ac37878b0602125ec902a16528aa2c1377e3adedb4ac51"
+  },
+  "abc_deltas.csv": {
+    "original": "unified/abc_comparison/results/paired_deltas.csv",
+    "sha256": "dfd9501f1ad5f36e3681c291b53adc6c7b15406a988840525d9bc4b16581b4ed"
+  },
+  "abc_folds.csv": {
+    "original": "unified/abc_comparison/results/cv_folds.csv",
+    "sha256": "9fd60a2d01bc1eced6248d4819531064b3575f3bb57d7aab29e3ebd4825c9744"
+  },
+  "missing.csv": {
+    "original": "unified/wzy_data/missing_statistics.csv",
+    "sha256": "35a88ed7b46a99e61202d4ea746ead7f4b33663b11e64d700adf093d70498043"
+  },
+  "membership.csv": {
+    "original": "baseline/splits/membership.csv",
+    "sha256": "f53531244866db58b376972feecb5879bcb6b81c475e612ad77829e2d4e2963f"
+  },
+  "blend_folds.csv": {
+    "original": "unified/optimization_20261007/results/blend_folds.csv",
+    "sha256": "ce12bb2495d58fc641a5c64f507a2d3f5b722282cdcbac7787bb888638ef0556"
+  },
+  "optimization_folds.csv": {
+    "original": "unified/optimization_20261007/results/cv_folds.csv",
+    "sha256": "7b974c40598fae5dcd7fe413a765d4d26b128d1c1ed294985b8e27a05da943bc"
+  },
+  "feature_trials.csv": {
+    "original": "unified/optimization_20261007/results/feature_paired_deltas.csv",
+    "sha256": "6e1bb4552ea0cf43f46a764e7df0a5b670010417d528ae1c19955e648cf9884a"
+  },
+  "LR_importance.csv": {
+    "original": "unified/results/LR_importance.csv",
+    "sha256": "3f017aa6a83e631d906da96e3fb231d3be954fc9a44cfea18cabc54ce0996461"
+  },
+  "RF_importance.csv": {
+    "original": "unified/results/RF_importance.csv",
+    "sha256": "d571f0d67cc7050f9bfded2fd9c2e1c6ed18db64bd570761cee884d7964b769c"
+  },
+  "LGB_importance.csv": {
+    "original": "unified/results/LGB_importance.csv",
+    "sha256": "24b6b370e01945939d008542ad97527b65a107386182ff84419430e588e16f0a"
+  },
+  "original_holdout.csv": {
+    "original": "unified/results/holdout_metrics.csv",
+    "sha256": "5331a8d59376dbc01dd9d5ec26d3cb0e291a346675f43a7361a8986a2e4efab5"
+  },
+  "optimized_holdout.csv": {
+    "original": "unified/optimization_20261007/results/holdout_metrics.csv",
+    "sha256": "c06bde64b41f00d40281c70326c82a852c416a36164bdc16c3257a9c8a0b33e9"
+  }
+}

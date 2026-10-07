@@ -1,0 +1,120 @@
+{
+  "bureau.csv": {
+    "BUREAU_COUNT": [
+      "SK_ID_BUREAU",
+      "count"
+    ],
+    "BUREAU_ACTIVE": [
+      "_active",
+      "sum"
+    ],
+    "BUREAU_CLOSED": [
+      "_closed",
+      "sum"
+    ],
+    "BUREAU_AVG_CREDIT": [
+      "AMT_CREDIT_SUM",
+      "mean"
+    ],
+    "BUREAU_MAX_CREDIT": [
+      "AMT_CREDIT_SUM",
+      "max"
+    ],
+    "BUREAU_AVG_DEBT": [
+      "AMT_CREDIT_SUM_DEBT",
+      "mean"
+    ],
+    "BUREAU_MAX_OVERDUE": [
+      "AMT_CREDIT_MAX_OVERDUE",
+      "max"
+    ]
+  },
+  "previous_application.csv": {
+    "PREV_COUNT": [
+      "SK_ID_PREV",
+      "count"
+    ],
+    "PREV_APPROVED": [
+      "_approved",
+      "sum"
+    ],
+    "PREV_REFUSED": [
+      "_refused",
+      "sum"
+    ],
+    "PREV_AVG_AMT": [
+      "AMT_APPLICATION",
+      "mean"
+    ],
+    "PREV_MAX_AMT": [
+      "AMT_APPLICATION",
+      "max"
+    ],
+    "PREV_AVG_ANNUITY": [
+      "AMT_ANNUITY",
+      "mean"
+    ],
+    "PREV_AVG_DAYS_DECISION": [
+      "DAYS_DECISION",
+      "mean"
+    ]
+  },
+  "installments_payments.csv": {
+    "INSTALL_COUNT": [
+      "SK_ID_PREV",
+      "count"
+    ],
+    "INSTALL_AVG_PAYMENT": [
+      "AMT_PAYMENT",
+      "mean"
+    ],
+    "INSTALL_MAX_PAYMENT": [
+      "AMT_PAYMENT",
+      "max"
+    ],
+    "INSTALL_AVG_DAYS_LATE": [
+      "DAYS_ENTRY_PAYMENT",
+      "mean"
+    ]
+  },
+  "POS_CASH_balance.csv": {
+    "POS_COUNT": [
+      "SK_ID_PREV",
+      "count"
+    ],
+    "POS_AVG_DPD": [
+      "SK_DPD",
+      "mean"
+    ],
+    "POS_MAX_DPD": [
+      "SK_DPD",
+      "max"
+    ],
+    "POS_AVG_DPD_DEF": [
+      "SK_DPD_DEF",
+      "mean"
+    ]
+  },
+  "credit_card_balance.csv": {
+    "CC_COUNT": [
+      "SK_ID_PREV",
+      "count"
+    ],
+    "CC_AVG_BALANCE": [
+      "AMT_BALANCE",
+      "mean"
+    ],
+    "CC_MAX_BALANCE": [
+      "AMT_BALANCE",
+      "max"
+    ],
+    "CC_AVG_LIMIT": [
+      "AMT_CREDIT_LIMIT_ACTUAL",
+      "mean"
+    ],
+    "CC_AVG_DPD": [
+      "SK_DPD",
+      "mean"
+    ]
+  }
+}

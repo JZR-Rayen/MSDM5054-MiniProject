@@ -1,0 +1,19 @@
+{
+  "evidence_type": "author-provided Kaggle submission-details screenshot",
+  "recorded_date": "2026-10-07",
+  "submission_filename_displayed": "submission.csv",
+  "submission_description": "LGB–LR rank 80/20",
+  "displayed_score": 0.77948,
+  "private_score": 0.77738,
+  "status_displayed": "Complete (after deadline)",
+  "official_leaderboard_rank": null,
+  "score_label_note": "The screenshot labels the first value Score; it is not relabelled Public score without additional evidence.",
+  "local_prediction_method": "0.8 * empirical CDF(LGB) + 0.2 * empirical CDF(LR), using development-OOF reference distributions",
+  "local_submission_sha256": "868b6c27924bda556e5049906fd9982aec74e7fd89d639987c933cb204490608",
+  "screenshot_sha256": "415bb21238f407375039c530a087b08818c2a9c202a033f1cee33b4b2cfca3c2",
+  "identity_basis": "User identified this screenshot as the score for the supplied 80/20 submission; the visible description is consistent. Screenshot alone does not verify the uploaded file byte-for-byte.",
+  "downloaded_upload_hash_verified": false,
+  "new_selection_from_kaggle": false,
+  "new_model_fits": 0,
+  "agent_uploaded_submission": false
+}
