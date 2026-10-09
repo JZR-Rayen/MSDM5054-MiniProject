@@ -181,7 +181,7 @@
   },
   {
     "file": "../figures/code/main_figures.py",
-    "sha256": "2e0e13f65a2ff165b7709c460ea2a777ed16d8c9581a862bc36d13d228f0d1a5"
+    "sha256": "1d81debb6741b6b9066a9b9453a35099d4bd1099b197fac533dfe3ad8f8e16a2"
   },
   {
     "file": "../figures/code/plots.py",
@@ -209,11 +209,11 @@
   },
   {
     "file": "../figures/history_gains.pdf",
-    "sha256": "e90df416f83aaeeca2ba72f27cedcb9b74c8289613f2c686649e6076a0dc8057"
+    "sha256": "8f260e347eb6dd7725c2d8ca16be56ce739374a4eedeb7dce22017cf7019e906"
   },
   {
     "file": "../figures/history_gains.png",
-    "sha256": "c2fab3b9f7413de1ff4bb8434a241e79aa8f40f230968550f6ab4f85717a84c5"
+    "sha256": "96a27db69038d87f6c87ed25988cc3660ef6e6ad22b316e250682c98a4ae3726"
   },
   {
     "file": "../figures/holdout.png",
@@ -246,5 +246,9 @@
   {
     "file": "../figures/study_design.png",
     "sha256": "df3a614d1dba0e7923d28825f59733373b97eb55283d9695a8a9a80d9cc2ed47"
+  },
+  {
+    "file": "../figures/eda.png",
+    "sha256": "000aa5c7a59cd804f5c0726a248a1b0116799952775fe64bb92e072105563a02"
   }
 ]

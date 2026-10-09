@@ -92,7 +92,7 @@ def history():
     for i,m in enumerate(['LR','RF','LGB']):
         q=s[s.model.eq(m)].set_index('group').loc[list('ABC')];x=np.arange(3)+(i-1)*.055
         a.plot(x,q.auc_mean,color=COLORS[m])
-        for j in range(3):a.errorbar(x[j],q.auc_mean.iloc[j],yerr=q.auc_sd.iloc[j],marker=MARKERS[j],color=COLORS[m],capsize=2.5)
+        for j in range(3):a.errorbar(x[j],q.auc_mean.iloc[j],yerr=q.auc_sd.iloc[j],marker='o',color=COLORS[m],capsize=2.5)
     a.set(xticks=range(3),xticklabels=['A: Application-table only','B: Basic history','C: Enhanced history'],ylabel='Mean AUC ± SD\n(zoomed)',ylim=(.746,.786),xlim=(-.20,2.25))
     a.set_yticks([.75,.76,.77,.78]);a.yaxis.set_major_formatter(FormatStrFormatter('%.2f'));a.grid(axis='y',alpha=.15);letter(a,'a')
     rows=[]

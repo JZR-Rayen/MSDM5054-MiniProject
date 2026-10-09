@@ -29,7 +29,7 @@ From the repository root:
 python notebooks/redraw_figures.py
 ```
 
-This regenerates seven technical plots and four main-report figures from authenticated saved CSVs into `figures/redrawn/`, including alignment checks. It performs no training and preserves the checked-in images. The notebook continues to display those checked-in images. Its application missingness illustration is a saved original EDA asset; the redraw command generates the combined label/missingness technical figure.
+This regenerates seven technical plots and four main-report figures from authenticated saved CSVs into `figures/redrawn/`, including alignment checks. It performs no training and preserves the checked-in images. The notebook continues to display those checked-in images. Its EDA illustration displays both the label distribution and application missingness; the redraw command regenerates this combined technical figure.
 
 ## Retrain From Original Data
 
@@ -63,4 +63,4 @@ Required inputs are `processed_data/application_train_processed_v1.csv`, `applic
 
 Original A/B/C development counts are 292,135 applicants, three common folds; the 15,376-person holdout was previously viewed. A was added after B/C. Original B/C outer models were not saved, so their default check authenticates predictions rather than replaying models. Mean fold AUC/AP is distinct from pooled OOF metrics; SD uses ddof=1. Extra feature trials were not adopted. Raw fusion decreased AUC, and selected rank fusion does not improve all AP folds. Ranking outputs are not calibrated probabilities.
 
-Before GitHub organization, the final report review rebuilt raw features, replayed nine saved A models and performed ten isolated verification fits. That was not complete 144-fit retraining. The GitHub organization does not change the report's scores or model choices.
+Historical verification on 7 October rebuilt raw features, replayed nine saved A models and performed ten isolated verification fits. That was not complete 144-fit retraining. The 9 October midterm-report finalization and GitHub update verify saved results with zero model fits; they do not change scores or model choices.

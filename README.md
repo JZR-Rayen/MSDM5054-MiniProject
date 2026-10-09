@@ -1,6 +1,6 @@
 # MSDM5054 Mini-Project
 
-HKUST MSDM5054 Statistical Machine Learning, Project 1.
+HKUST MSDM5054 Statistical Machine Learning, midterm Mini-Project 1.
 
 ## Team Members
 
@@ -44,7 +44,7 @@ Refined LightGBM reached 0.781855; the rule-selected 80/20 LGB–LR rank fusion 
 - `notebooks/`: one integrated notebook, required helpers, frozen training source and saved-result dependencies.
 - `data/`: original-data download and placement instructions; no raw or processed training tables.
 - `figures/`: figures displayed in the report/notebook and their redraw code.
-- `report/`: the current eight-page course report.
+- `report/`: the finalized eight-page midterm Mini-Project report (9 October 2026).
 
 Raw competition data, model archives, backups, review logs, historical delivery versions and ZIP files are excluded. Saved OOF scores remain because the notebook recomputes metrics from them rather than merely displaying a performance table.
 
